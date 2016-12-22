@@ -1,3 +1,6 @@
+Atlastool
+=========
+
 Представляю на суд общественности утилиту для создания текстурных атласов из набора изображений.
 
 Утилита написана на питоне мной и моим коллегой в далеком 2012 году, работает исправно до сих пор.
@@ -5,13 +8,17 @@
 Использование тривиально:
 
 Usage: atlastool.py [options] directory
+---------------------------------------
  
 Options:
-  --version             show program's version number and exit
-  -h, --help            show this help message and exit
-  -v, --verbose         verbose output
+--------
+    --version             show program's version number and exit
+    -h, --help            show this help message and exit
+    -v, --verbose         verbose output
  
-  Atlas options:
+Atlas options:
+-------------
+
     -W MAXWIDTH, --max-width=MAXWIDTH
                         max atlas width [default 2048]
     -H MAXHEIGHT, --max-height=MAXHEIGHT
@@ -27,7 +34,8 @@ Options:
                         alpha threshold for image trimming [default 1]
     --no-optimize       disable atlas size optimization
  
-  Output options:
+Output options:
+---------------
     -f FORMAT, --format=FORMAT
                         output format (ogre, cocos2d, cocos2d-with-path)
     -o OUTPUTDIRECTORY, --output=OUTPUTDIRECTORY
